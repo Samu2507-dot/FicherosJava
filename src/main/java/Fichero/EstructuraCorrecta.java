@@ -1,18 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 package Fichero;
 
-/**
- * Hasta el final... vamos Real
- * @author Kylian<16@ChampionLeague.com>
- * @url realmadrid.com<realmadrid.com>
- * @date 4 feb 2026
- */
-import java.util.ArrayList;
-import java.util.Scanner;
-public class EstructuraCorrecta {
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
+public class EstructuraCorrecta {
+    public static void main(String[] args) {
+        
+        try (BufferedWriter contenido = new BufferedWriter(new FileWriter("alumnos.txt"))){
+            contenido.write("Juan Pérez");
+            contenido.newLine();
+            contenido.write("María García");
+            contenido.newLine();
+            contenido.write("Pedro López");
+            contenido.newLine();
+            
+            System.out.println("Fichero creado correctamente");
+        } catch (IOException e) {
+            System.err.println("Error: " + e.getMessage());
+        }   
+    }
 }

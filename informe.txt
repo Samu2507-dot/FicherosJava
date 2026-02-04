@@ -1,0 +1,10 @@
+=== Informe de Notas ===
+
+Alumno               Nota
+-----------------------
+Juan Pérez            8,50
+María García          9,00
+Pedro López           7,50
+
+Total alumnos3
+Nota media:8.33

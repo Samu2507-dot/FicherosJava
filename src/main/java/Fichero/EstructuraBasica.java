@@ -17,8 +17,6 @@ public class EstructuraBasica {
             
         } catch (IOException e) {
             System.err.println("Error: " + e.getMessage());
-        }finally{
-            
-        }        
+        }
     }
 }
