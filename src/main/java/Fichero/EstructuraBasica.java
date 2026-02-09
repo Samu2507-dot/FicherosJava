@@ -1,6 +1,5 @@
 package Fichero;
 
-import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -9,7 +8,7 @@ public class EstructuraBasica {
         FileWriter fw = null;
             
         try {
-            fw = new FileWriter("datos.txt");
+            fw = new FileWriter("datos.txt", true);
             
             fw.write("Primera línea\n");
             fw.write("Segunda línea\n");

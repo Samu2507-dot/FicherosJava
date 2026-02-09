@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class EscrituraPrintWriter {
     public static void main(String[] args) {
-        try (PrintWriter pw = new PrintWriter(new FileWriter("informe.txt"))) {
+        try (PrintWriter pw = new PrintWriter(new FileWriter("informe.txt", true))) {
             //Métodos familiares como System.out
             pw.println("=== Informe de Notas ===");
             pw.println();

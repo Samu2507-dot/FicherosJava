@@ -7,7 +7,7 @@ import java.io.IOException;
 public class EstructuraCorrecta {
     public static void main(String[] args) {
         
-        try (BufferedWriter contenido = new BufferedWriter(new FileWriter("alumnos.txt"))){
+        try (BufferedWriter contenido = new BufferedWriter(new FileWriter("alumnos.txt", true))){
             contenido.write("Juan Pérez");
             contenido.newLine();
             contenido.write("María García");
