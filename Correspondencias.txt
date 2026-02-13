@@ -1,0 +1,18 @@
+Señores $empresa
+Presente.-
+Atn.: $rrhh
+Depto. de $departamento
+
+Estimados señores:
+
+Por este medio, deseo hacer de su conocimiento mi decisión de renunciar a mi cargo como $cargo, el cual vengo desempeñando desde $fecha1. Por lo que, a partir de la fecha $fecha2, finalizaré mi relación laboral con la empresa.
+
+El motivo de mi renuncia obedece a $motivo.
+
+Es por ello que, a la vez, solicito la liquidación de mi contrato de trabajo, junto con las prestaciones sociales y salarios correspondientes por el período laborado.
+
+Agradezco a $jefe por la confianza brindada, así como por la experiencia que me han permitido adquirir durante todo este tiempo, la cual me será de mucha utilidad en mi carrera profesional.
+
+Me despido, deseándoles los mayores éxitos. Atentamente,
+
+$nombre $apellido
